@@ -99,7 +99,7 @@ namespace UITest1
         public void BasicButtonCommand_Por2()
         {
             app.Tap(BasicCommand);     //app.Tap(c => c.Marked("BasicCommandId"));
-            app.Screenshot("Prueba_basic command master");
+            app.Screenshot("Prueba_basic command");
 
             //Search the label result
             AppResult[] CodePageTextResult = app.Query(c => c.Marked("LabelResult"));
