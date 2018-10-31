@@ -99,9 +99,9 @@ namespace UITest1
         public void BasicButtonCommand_Por2()
         {
             app.Tap(BasicCommand);     //app.Tap(c => c.Marked("BasicCommandId"));
-            app.Screenshot("Prueba_basic commanddd");
+            app.Screenshot("Prueba_basic command");
 
-            //Search the label resulttt
+            //Search the label resultest
             AppResult[] CodePageTextResult = app.Query(c => c.Marked("LabelResult"));
             string PageLabel_Text = CodePageTextResult.First().Text;
             Assert.AreEqual("Value is now 1", PageLabel_Text);
