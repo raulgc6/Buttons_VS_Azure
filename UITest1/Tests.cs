@@ -94,7 +94,8 @@ namespace UITest1
         }
 
         [Test]
-        [Category("3 Math operations")]
+        [Category("3_Math_operations")]
+
         public void BasicButtonCommand_Por2()
         {
             app.Tap(BasicCommand);     //app.Tap(c => c.Marked("BasicCommandId"));
