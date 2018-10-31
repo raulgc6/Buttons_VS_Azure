@@ -29,6 +29,7 @@
                     CommandParameter="{x:Type local:PressAndReleaseButtonPage}"  
                     AutomationId="PressId"/>
 
+            
             <Button Text="Button Appearance"
                     Command="{Binding NavigateCommand}"
                     CommandParameter="{x:Type local:ButtonAppearancePage}"  
