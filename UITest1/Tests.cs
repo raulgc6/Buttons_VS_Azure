@@ -43,7 +43,6 @@ namespace UITest1
             //appResult[] results = app.WaitForElement(c => c.Marked("Welcome to Xamarin.Forms!"));
             app.Screenshot("Welcome screen.");
             app.Tap(Basic);     //app.Tap(c => c.Marked("BasicClick"));
-
             app.Screenshot("Prueba_basic_click");
             app.Tap("Rotate_text");
             app.WaitForElement("Rotate_text");
