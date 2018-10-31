@@ -46,10 +46,8 @@ namespace UITest1
             app.Screenshot("Prueba_basic_click");
             app.Tap("Rotate_text");
             app.WaitForElement("Rotate_text");
-            //app.WaitForElement(e => e.Button("BasicId"));
-            //var texto = 
             app.Back();
-            app.WaitForElement(e => e.Button("BasicId"), timeout: TimeSpan.FromSeconds(10));
+            app.WaitForElement(e => e.Button("BasicId"), timeout: TimeSpan.FromSeconds(30));
             //app.WaitForElement(c => c.Class("ButtonDemos.MainPage"), timeout: TimeSpan.FromSeconds(120));
             Console.WriteLine("RESULT - Test case BasicButtonTest PASSED ");
             app.Screenshot("When I get the result value");

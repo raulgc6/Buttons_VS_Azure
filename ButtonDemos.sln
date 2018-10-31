@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonDemos.UWP", "ButtonDe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonDemos", "ButtonDemos\ButtonDemos\ButtonDemos.csproj", "{6312461E-6CE4-4013-A9CE-ACA623F99BED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest1", "UITest1\UITest1.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITest", "UITest1\UITest.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
