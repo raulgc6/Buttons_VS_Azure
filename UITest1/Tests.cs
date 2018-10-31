@@ -97,7 +97,7 @@ namespace UITest1
         [Category("3 Math operations")]
         public void BasicButtonCommand_Por2()
         {
-            app.Tap(BasicCommand);      //app.Tap(c => c.Marked("BasicCommandId"));
+            app.Tap(BasicCommand);     //app.Tap(c => c.Marked("BasicCommandId"));
             app.Screenshot("Prueba_basic command");
 
             //Search the label result
